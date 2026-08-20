@@ -6,6 +6,15 @@
 
 [English](README.md) · 简体中文
 
+## 看它怎么跑
+
+<a href="https://www.bilibili.com/video/BV17M8P6EEgD/"><img src="https://i0.hdslb.com/bfs/archive/cc477eb429164de56ab0dedf5ecca89e3a3bac65.jpg" width="480" alt="终于 FinalCut+自动剪辑"></a>
+
+**[终于😲 FinalCut+自动剪辑](https://www.bilibili.com/video/BV17M8P6EEgD/)** · 3:48 · 哔哩哔哩
+
+从 ChatCut 的成片到 Final Cut Pro 工程，完整走一遍。
+<!-- YouTube 版：传好之后在这里加一行。 -->
+
 剪辑点落在准确的那一帧。叠加轨还是分开的轨。推镜过去是活的关键帧，落地还能接着拖。音乐的 dB 和淡入淡出都在。字幕进的是 FCP 自己的字幕轨。
 
 这个 skill 里的每一条都是对着真实的 Final Cut Pro（FCP 12.x）导入结果量出来的，数字全部从检查器里读回来 —— 包括那些失败模式，而它们恰恰是这个 skill 存在的理由。FCP 导入 FCPXML 是**静默失败**的：退出码干干净净、导入对话框一路绿灯，素材照样能凭空消失、变换照样能叠错、字幕照样能自己换个样式。

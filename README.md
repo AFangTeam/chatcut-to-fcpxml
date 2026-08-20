@@ -6,6 +6,15 @@ An [Agent Skill](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/o
 
 English · [简体中文](README.zh-CN.md)
 
+## Watch it work
+
+<a href="https://www.bilibili.com/video/BV17M8P6EEgD/"><img src="https://i0.hdslb.com/bfs/archive/cc477eb429164de56ab0dedf5ecca89e3a3bac65.jpg" width="480" alt="终于 FinalCut+自动剪辑 — chatcut-to-fcpxml walkthrough"></a>
+
+**[终于😲 FinalCut+自动剪辑](https://www.bilibili.com/video/BV17M8P6EEgD/)** · 3:48 · Bilibili · in Chinese
+
+A full run: ChatCut edit in, Final Cut Pro project out.
+<!-- YouTube version: add a line here once it's up. -->
+
 Cuts land on the exact frame. Overlay tracks stay separate lanes. Zoom moves come across as live, editable keyframes. Music keeps its dB and its fades. Captions arrive in FCP's own caption lane.
 
 Everything in this skill was measured against a real Final Cut Pro import (FCP 12.x) and read back from the Inspector — including the failure modes, which are the reason the skill exists. FCP imports FCPXML *silently*: a clean exit code and a green import dialog routinely hide assets that were dropped, transforms that compounded, and captions that restyled themselves.
