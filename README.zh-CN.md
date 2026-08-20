@@ -4,7 +4,9 @@
 
 这是一个 [Agent Skill](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview)：把文件夹丢进 Claude Code 或 Codex，然后开口就行。底下那两个 Python 脚本也能脱离 agent 单独跑。
 
-[English](README.md) · 简体中文
+简体中文 · **[English](README.md)**
+
+> **从视频过来的？** 一句话装好，直接跳到 [安装](#安装)；想先确认能跑，看 [验证能跑通](#验证能跑通)。
 
 ## 看它怎么跑
 

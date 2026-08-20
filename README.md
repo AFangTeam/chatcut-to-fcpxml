@@ -2,9 +2,9 @@
 
 **ChatCut → Final Cut Pro.** Hand a [ChatCut](https://chatcut.com) timeline off to Final Cut Pro as a real, editable FCPXML project — not a flattened render.
 
-An [Agent Skill](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview): drop the folder into Claude Code or Codex and ask. The Python underneath also runs on its own, with no agent involved.
+**[👉 简体中文文档](README.zh-CN.md)** · English below
 
-English · [简体中文](README.zh-CN.md)
+An [Agent Skill](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview): drop the folder into Claude Code or Codex and ask. The Python underneath also runs on its own, with no agent involved.
 
 ## Watch it work
 
