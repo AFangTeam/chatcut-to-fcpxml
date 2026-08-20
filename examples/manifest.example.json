@@ -1,0 +1,100 @@
+{
+  "project": {
+    "name": "ChatCut Handoff Demo",
+    "event": "ChatCut Handoff",
+    "library_bundle": "/absolute/path/to/ChatCutHandoff.fcpbundle",
+    "width": 1080,
+    "height": 1920,
+    "fps": "30000/1001",
+    "duration_frames": 240,
+    "color_space": "1-1-1 (Rec. 709)",
+    "caption_role": "iTT?captionFormat=ITT.zh",
+    "caption_style": {
+      "font": "Noto Sans SC",
+      "fontSize": "63",
+      "fontColor": "1 1 1 1",
+      "bold": "1"
+    }
+  },
+
+  "assets": {
+    "aroll": {
+      "path": "/absolute/path/to/aroll.mov",
+      "width": 1920,
+      "height": 1080,
+      "frame_rate": "30000/1001",
+      "has_video": true,
+      "has_audio": true,
+      "audio_channels": 2,
+      "audio_rate": 48000,
+      "duration_s": "12.0"
+    },
+    "broll": {
+      "path": "/absolute/path/to/broll.mov",
+      "width": 1920,
+      "height": 1080,
+      "frame_rate": "25",
+      "has_video": true,
+      "has_audio": false,
+      "duration_s": "6.0"
+    },
+    "music": {
+      "path": "/absolute/path/to/music.m4a",
+      "frame_rate": null,
+      "has_video": false,
+      "has_audio": true,
+      "audio_channels": 2,
+      "audio_rate": 44100,
+      "duration_s": "15.0"
+    }
+  },
+
+  "clips": [
+    {
+      "id": "opening",
+      "asset": "aroll",
+      "lane": 1,
+      "from": 0,
+      "duration": 120,
+      "source_start_s": "0",
+      "scale_keyframes": [
+        { "at": 0, "value": 1.0 },
+        { "at": 120, "value": 1.12 }
+      ]
+    },
+    {
+      "id": "kicker",
+      "asset": "aroll",
+      "lane": 1,
+      "from": 120,
+      "duration": 120,
+      "source_start_s": "4.004",
+      "scale": 1.5
+    },
+    {
+      "id": "broll-fullbleed",
+      "asset": "broll",
+      "lane": 2,
+      "from": 60,
+      "duration": 60,
+      "source_start_s": "0.5",
+      "cover_rect": [1080, 1920]
+    },
+    {
+      "id": "bgm",
+      "asset": "music",
+      "lane": -1,
+      "from": 0,
+      "duration": 240,
+      "source_start_s": "0",
+      "volume_db": -17.72,
+      "fade_in_s": 0.05,
+      "fade_out_s": 0.3
+    }
+  ],
+
+  "captions": [
+    { "from": 15, "to": 87, "text": "第一页字幕" },
+    { "from": 90, "to": 150, "text": "第二页字幕" }
+  ]
+}

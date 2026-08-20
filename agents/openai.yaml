@@ -1,0 +1,4 @@
+interface:
+  display_name: "ChatCut → Final Cut Pro"
+  short_description: "Clone a ChatCut timeline into Final Cut Pro as an editable FCPXML project"
+  default_prompt: "Use $chatcut-to-fcpxml to hand my current ChatCut project off to Final Cut Pro as an editable FCPXML project — frame-exact cuts, zoom keyframes and captions intact."

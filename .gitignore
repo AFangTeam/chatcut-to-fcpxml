@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Skill outputs / demo artifacts — never commit media or generated timelines
+*.fcpxml
+*.fcpbundle/
+**/examples/media/
+**/examples/manifest.demo.json
+*.zip
+
+# Editors
+.idea/
+.vscode/
